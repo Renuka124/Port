@@ -18,7 +18,7 @@ const Page = () => {
       
       {/* Home Section */}
       <section id="home" className="relative flex h-screen w-full items-center justify-center overflow-hidden rounded-lg bg-black p-20 md:shadow-xl">
-        <div className="relative h-[400px] w-[1000px] rounded-xl text-left p-7">
+        <div className="relative h-[550px] w-[1150px] rounded-xl text-left p-7">
           <div className="z-10 text-white">
             <p className="font-mono mb-4 text-6xl">Namaste(); I'm</p>
             <h1 className="text-8xl font-bold bg-gradient-to-r from-purple-400 via-blue-500 to-purple-400 text-transparent bg-clip-text mb-6">
@@ -39,7 +39,7 @@ const Page = () => {
           <Image
             src={Pf}
             alt="Profile Picture"
-            className="absolute top-4 right-4 h-[300px] w-[320px] border-4 border-white"
+            className="absolute top-4 left-[300px] h-[300px] w-[320px] border-4 border-white gap-[50px] ml-[500px]"
           />
           <BorderBeam />
         </div>
